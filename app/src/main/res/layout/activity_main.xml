@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAlpha"
+            android:onClick="XuLyAlphaAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alpha animation" />
+
+        <Button
+            android:id="@+id/btnScale"
+            android:onClick="XuLyScaleAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale animation" />
+
+        <Button
+            android:id="@+id/btnTranslate"
+            android:onClick="XuLyTranslateAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Translate animation" />
+
+        <Button
+            android:id="@+id/btnRotate"
+            android:onClick="XuLyRotateAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotate animation" />
+
+        <Button
+            android:id="@+id/btnTongHop"
+            android:onClick="XuLyTongHopAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tong hop" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:onClick="XuLyThoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoat" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
